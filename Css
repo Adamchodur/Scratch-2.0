@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(123, 181, 243);
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+        /* font-weight: bold;
+        font-size: 18px; */
+    }
+    .resumeListHolding {
+        font-weight:bold ;
+        font-style: normal;
+    }
+    .underline {text-decoration: underline;}
+    .bold {font-weight: bold;}
+    .justify {text-align: justify;}
+
+    .small-photo {
+        width: 150x; /* Adjust this value to make the image smaller */
+        height: auto; /* Keep the image's aspect ratio */
+        border-radius: 10px; /* Optional styling for rounded corners */
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+    
+/* Global styles for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Game section centered */
+.game-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;  /* Adjust the width to control the center section size */
+    margin: 20px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;  /* Centers the game content within the section */
+}
+
+/* Button style */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Feedback text */
+#feedback {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Option buttons for the game */
+#options button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+    
